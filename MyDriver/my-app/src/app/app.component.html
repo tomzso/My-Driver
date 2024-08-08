@@ -1,0 +1,21 @@
+
+
+
+<ng-container *ngIf="activateRouterOutlet; then loginPage; else homePage">
+</ng-container>
+
+
+<ng-template #loginPage>
+    <router-outlet></router-outlet>
+</ng-template>
+
+<ng-template #homePage>
+    <app-upload-files-folders></app-upload-files-folders>
+    <app-folder-list></app-folder-list>
+    <app-file-list></app-file-list>
+
+
+    
+</ng-template>
+
+

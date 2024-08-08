@@ -1,0 +1,170 @@
+.google-drive-button {
+  background-color: transparent;
+  border: 2px solid #CCCCCC;
+  border-left: none;
+  border-right: none; 
+  color: #000000;
+  padding: 15px 20px;
+  font-size: 18px;
+  
+  text-transform: uppercase;
+  width: 100%; /* Adjust the width as needed */
+  max-width: 2000px; /* Set a max-width if desired */
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center; /* Center items vertically */
+  margin: 0 ; /* Center the button horizontally */
+  
+  cursor: pointer;
+  outline: none; /* Remove the default focus outline */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.google-drive-button span {
+  flex: 1; /* Each span takes up equal space */
+  text-align: left; /* Center text horizontally */
+}
+
+/* Hover effect */
+.google-drive-button:hover {
+  background-color: #e0e0e0;
+  color: #000000;
+  border-color: #CCCCCC;
+}
+
+
+
+table {
+  border-collapse: collapse; /* Remove any space between table cells */
+  border-spacing: 0; /* Ensure no space between table cells */
+  width: 80%;
+  margin-left: auto; /* Center the table horizontally */
+  margin-right: auto; /* Center the table horizontally */
+  
+}
+
+td {
+  padding: 0;
+  margin: 0;
+}
+/* Set fixed width for the first column */
+td:first-child {
+  width: 1500px; /* Adjust the width as needed */
+}
+
+
+
+
+
+.google-drive-delete-button {
+  background-color: transparent;
+  border: 2px solid #CCCCCC;
+  border-top: none; /* Remove top border */
+  border-bottom: none; /* Remove bottom border */
+  border-left: none;
+  border-right: none; 
+  color: #000000;
+  padding: 15px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100%; /* Adjust the width as needed */
+  max-width: 2000px; /* Set a max-width if desired */
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center; /* Center items vertically */
+  margin: 0; /* Center the button horizontally */
+  cursor: pointer;
+  outline: none; /* Remove the default focus outline */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.google-drive-delete-button span {
+  flex: 1; /* Each span takes up equal space */
+  text-align: center; /* Center text horizontally */
+}
+
+/* Hover effect */
+.google-drive-delete-button:hover {
+  background-color: rgb(250, 0, 0, 0.4);
+  color: #000000;
+  border-color: #CCCCCC;
+}
+
+
+
+
+
+
+
+.google-drive-header {
+  background-color: transparent;
+  border: 2px solid #CCCCCC;
+  border-left: none;
+  border-right: none; 
+  color: #000000;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold; /* Make the text bold */
+  text-transform: uppercase;
+  width: 100%; /* Adjust the width as needed */
+  max-width: 2000px; /* Set a max-width if desired */
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center; /* Center items vertically */
+  margin: 0 ; /* Center the button horizontally */
+  cursor: pointer;
+  outline: none; /* Remove the default focus outline */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.google-drive-header span {
+  flex: 1; /* Each span takes up equal space */
+  text-align: left; /* Align text to the left */
+}
+
+/* Hover effect */
+.google-drive-header:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #CCCCCC;
+}
+
+
+
+.google-drive-root {
+  background-color: transparent;
+  border: 2px solid #CCCCCC;
+  border-left: none;
+  border-right: none; 
+  color: #000000;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold; /* Make the text bold */
+  text-transform: uppercase;
+  width: 100%; /* Adjust the width as needed */
+  max-width: 2000px; /* Set a max-width if desired */
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center; /* Center items vertically */
+  margin: 0 ; /* Center the button horizontally */
+  cursor: pointer;
+  outline: none; /* Remove the default focus outline */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.google-drive-root span {
+  flex: 1; /* Each span takes up equal space */
+  text-align: left; /* Align text to the left */
+}
+
+/* Hover effect */
+.google-drive-root:hover {
+  background-color: #acbdf7;
+  color: #000000;
+  border-color: #CCCCCC;
+}
+
+
+.container {
+  padding-left: 40px; /* Adjust the left padding as needed */
+}

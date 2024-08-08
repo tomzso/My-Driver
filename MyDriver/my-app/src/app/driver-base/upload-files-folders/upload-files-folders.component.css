@@ -1,0 +1,79 @@
+.google-drive-button {
+    background-color: #a6ccf5; /* Blue color */
+    border: 2px solid #CCCCCC;
+    border-radius: 20px; /* Rounded corners */
+    color: #000000;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 80%; /* Adjust the width as needed */
+    max-width: auto; /* Set a max-width if desired */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin: 0 ; /* Center the button horizontally */
+    cursor: pointer;
+    outline: none; /* Remove the default focus outline */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    
+}
+
+.google-drive-button span {
+    text-align: center; /* Center text horizontally */
+}
+
+/* Hover effect */
+.google-drive-button:hover {
+    background-color: #7878f7;
+    color: #ffffff;
+    border-color: #CCCCCC;
+}
+
+
+  .centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%; /* Adjust width as needed */
+  }
+  
+#folderNameInput {
+    text-align: center; /* Center text horizontally */
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 30px; /* Set the font size to 18 pixels */
+}
+
+table {
+    border-collapse: collapse; /* Remove any space between table cells */
+    border-spacing: 0; /* Ensure no space between table cells */
+    width: 80%;
+    margin-left: auto; /* Center the table horizontally */
+    margin-right: auto; /* Center the table horizontally */
+    
+  }
+
+
+
+  .custom-file-input {
+    cursor: pointer;
+    padding: 20px 30px;
+    background-color: #a6ccf5;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block; /* Make the label behave like a button */
+    border-radius: 20px; /* Rounded corners */
+}
+
+.custom-file-input:hover {
+    background-color: #7878f7; /* Darker shade of blue on hover */
+    color: #ffffff;
+}

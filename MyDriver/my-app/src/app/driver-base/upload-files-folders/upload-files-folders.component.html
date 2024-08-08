@@ -1,0 +1,27 @@
+<table>
+    <tr>
+      <td style="text-align: left;">
+        <div class="centered-container">
+
+            <label for="fileInput" class="custom-file-input google-drive-button">
+                Upload File
+            </label>
+            <input id="fileInput" type="file" (change)="onFileSelected($event)" style="display: none;">
+            
+
+
+        </div>
+      </td>
+      <td style="text-align: right;">
+        <div class="centered-container">
+            <label for="folderNameInput">Name of the folder: </label>
+            <input id="folderNameInput" [(ngModel)]="folderName" />
+            <button (click)="onFolderCreate()" class="google-drive-button">
+              Create new folder:  <br> <br>
+              {{folderName}} 
+            </button>
+        </div>
+      </td>
+    </tr>
+  </table>
+  
